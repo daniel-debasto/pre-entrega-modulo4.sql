@@ -17,4 +17,13 @@ GROUP BY c.nombre, p.nombre
 ORDER BY cantidad_compras DESC, fecha_ultima_transaccion DESC
 LIMIT 3;
 
+-- ==========================================
+-- RESULTADO DE LA CONSULTA EJECUTADA:
+-- cliente_nombre | producto_preferido  | cantidad_compras | fecha_ultima_transaccion
+-- Carlos Gómez   | Remera de Algodón   | 120              | 2026-10-03
+-- Juan Pérez     | Televisor Smart 4K  | 80               | 2026-10-01
+-- María López    | Auriculares Bluetooth| 70               | 2026-10-02
+-- ==========================================
+
+
 

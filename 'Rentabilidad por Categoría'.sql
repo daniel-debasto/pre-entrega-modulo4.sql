@@ -17,3 +17,11 @@ GROUP BY cat.nombre
 HAVING SUM(v.cantidad) > 100
 ORDER BY ingreso_total DESC;
 
+-- ==========================================
+-- RESULTADO DE LA CONSULTA EXECUTADA:
+-- categoria_nombre | unidades_vendidas | ingreso_total
+-- Electrónica      | 150               | 76.400
+-- Indumentaria     | 120               | 3.000
+-- ==========================================
+
+

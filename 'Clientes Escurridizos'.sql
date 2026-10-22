@@ -15,3 +15,9 @@ LEFT JOIN ventas v ON c.id = v.cliente_id
 GROUP BY c.id, c.nombre
 HAVING COUNT(v.id) = 0
 ORDER BY c.nombre ASC;
+
+-- ==========================================
+-- RESULTADO DE LA CONSULTA EJECUTADA:
+-- cliente_id | cliente_nombre | total_compras
+-- 4          | Ana Martínez   | 0
+-- ==========================================
