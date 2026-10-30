@@ -28,4 +28,15 @@ SELECT *
 FROM metricas_ventana
 ORDER BY mes ASC, ranking_mes ASC;
 
+-- ==============================================================================
+-- RESULTADO DE LA CONSULTA EJECUTADA:
+-- mes                 | categoria    | venta_total | ranking_mes | acumulado_historico
+-- 2026-10-01 00:00:00 | Electrónica  | 76.400      | 1           | 76.400
+-- 2026-10-01 00:00:00 | Indumentaria | 3.000       | 2           | 3.000
+-- 2026-10-01 00:00:00 | Hogar        | 675         | 3           | 675
+-- 2026-11-01 00:00:00 | Electrónica  | 8.500       | 1           | 84.900
+-- 2026-11-01 00:00:00 | Indumentaria | 1.250       | 2           | 4.250
+-- 2026-12-01 00:00:00 | Electrónica  | 12.750      | 1           | 97.650
+-- 2026-12-01 00:00:00 | Hogar        | 1.350       | 2           | 2.025
+-- ==============================================================================
 
